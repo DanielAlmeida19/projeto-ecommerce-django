@@ -2,3 +2,17 @@
 typeCheckingMode = "strict"
 venvPath = "."
 venv = "venv"
+
+# ESSENCIAL para Django (usa django-stubs)
+useLibraryCodeForTypes = true
+
+# Para evitar falsos positivos comuns
+reportMissingTypeStubs = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+
+# Ignorar arquivos que não fazem sentido tipar
+exclude = [
+  "**/migrations/**",
+  "**/__pycache__/**",
+]
