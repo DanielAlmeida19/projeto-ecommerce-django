@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Meus apps
     'produto',
     'pedido',
+    'perfil',
 
     # TODO: Remover em produção
     'debug_toolbar'
